@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.smasite.mimascota.ContactoActivity">
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbarfav"
+        ></include>
+    <TextView
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_comentario"
+        android:textSize="@dimen/size_titulo"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginLeft="@dimen/margen"
+        android:layout_marginRight="@dimen/margen"
+        android:layout_marginTop="@dimen/margen"
+        android:id="@+id/etNombre_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_text"
+            android:hint="@string/nombre_completo"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginLeft="@dimen/margen"
+        android:layout_marginRight="@dimen/margen"
+        android:layout_marginTop="@dimen/margen"
+        android:id="@+id/etEmail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_text"
+            android:hint="@string/emailt"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginLeft="@dimen/margen"
+        android:layout_marginRight="@dimen/margen"
+        android:layout_marginTop="@dimen/margen"
+        android:id="@+id/etMensaje_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_text"
+            android:hint="@string/mensaje"
+            android:inputType="textMultiLine"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout android:id="@+id/llEnviar"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_enviar"
+            android:background="@color/colorAccent"
+            android:text="@string/btn_enviar"
+            android:textSize="@dimen/size_text"
+            android:textColor="@color/colorIncons"/>
+    </LinearLayout>
+
+</LinearLayout>

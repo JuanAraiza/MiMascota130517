@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Petgraman</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">55555555</string>
+    <string name="email">email@email.com</string>
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+    <string name="mContacto">Contacto</string>
+    <string name="mAcerca">Acerca de</string>
+    <string name="nombre_completo">Nombre Completo: </string>
+    <string name="emailt">Email: </string>
+    <string name="mensaje">Comentario: </string>
+    <string name="btn_enviar">Enviar Comentario</string>
+    <string name="desarrollado_por">Desarrollado por:</string>
+    <string name="titulo_desarrollador">Juan Araiza Rangel</string>
+    <string name="bio_desarrollador">Ingeniero en Sistemas Computacionales y Telematica</string>
+    <string name="titulo_comentario">Dejanos un Comentario</string>
+    <string name="hercules">Hercules</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
